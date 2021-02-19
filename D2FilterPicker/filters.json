@@ -4,7 +4,27 @@
     "Url": "https://raw.githubusercontent.com/Kryszard-POD/Kryszard-s-PD2-Loot-Filter/main/item.filter"
   },
   {
-    "Name": "Wolfie Basic",
+    "Name": "Wolfie PD2 Basic",
     "Url": "https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter"
+  },
+  {
+    "Name": "Wolfie PD2 Compact",
+    "Url": "https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter"
+  },
+  {
+    "Name": "Wolfie PD2 Detailed",
+    "Url": "https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter"
+  },
+  {
+    "Name": "Wolfie PD2 Wolfie Personal",
+    "Url": "https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter"
+  },
+  {
+    "Name": "Feather PD2",
+    "Url": "https://raw.githubusercontent.com/BetweenWalls/Feather-PD2/main/loot.filter"
+  },
+  {
+    "Name": "Equa1ity PD2",
+    "Url": "https://raw.githubusercontent.com/PritchardJasonR/Equa1ityPD2Filter/main/default.filter"
   }
 ]
