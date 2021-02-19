@@ -3,7 +3,13 @@
   <Profiles />
   <Settings>
     <Setting Name="LocalFilterPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\D2\PD2\default.filter</Value>
+      <Value Profile="(Default)">C:\Program Files (x86)\Diablo II\ProjectD2\default.filter</Value>
+    </Setting>
+    <Setting Name="RemoteFilterList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://raw.githubusercontent.com/mik1893/D2FilterPicker/main/D2FilterPicker/filters.json</Value>
+    </Setting>
+    <Setting Name="LocalFilterList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filters.json</Value>
     </Setting>
   </Settings>
 </SettingsFile>

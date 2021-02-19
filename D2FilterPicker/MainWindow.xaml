@@ -12,8 +12,8 @@
         <Image gif:ImageBehavior.AnimatedSource="diablo.gif" Margin="63,262,938,19.2" />
         <TextBox x:Name="filterTextBox" Margin="278,27,0,10" TextWrapping="Wrap" Text=" " Background="Black" Foreground="White" BorderThickness="1" BorderBrush="Gray" HorizontalAlignment="Left" Width="413" IsReadOnly="True" VerticalScrollBarVisibility="Visible" />
         <TextBox x:Name="currentTextBox" Margin="699,26,0,10" TextWrapping="Wrap" Text=" " Background="Black" Foreground="White" BorderThickness="1" BorderBrush="Gray" HorizontalAlignment="Left" Width="413" IsReadOnly="True" VerticalScrollBarVisibility="Visible" />
-        <ComboBox x:Name="filterComboBox" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Width="247" />
-        <Label x:Name="selectFilterLabel" Content="Select a Loot Filter:" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Foreground="White" Width="247"/>
+        <ComboBox x:Name="filterComboBox" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="247" />
+        <Label x:Name="selectFilterLabel" Content="Select a Loot Filter:" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Foreground="White" Width="247"/>
         <Button x:Name="applyButton" Content="Apply Filter" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="247" Height="30"/>
         <Button x:Name="updateButton" Content="Update Filter List" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Width="247" Height="30"/>
         <Button x:Name="browseButton" Content="Browse" HorizontalAlignment="Left" Margin="195,53,0,0" VerticalAlignment="Top" Width="62" Height="25"/>

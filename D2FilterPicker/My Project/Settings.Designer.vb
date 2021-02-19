@@ -64,6 +64,31 @@ Partial Friend NotInheritable Class MySettings
             Me("LocalFilterPath") = value
         End Set
     End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("https://raw.githubusercontent.com/mik1893/D2FilterPicker/main/D2FilterPicker/filt"& _ 
+        "ers.json")>  _
+    Public Property RemoteFilterList() As String
+        Get
+            Return CType(Me("RemoteFilterList"),String)
+        End Get
+        Set
+            Me("RemoteFilterList") = value
+        End Set
+    End Property
+    
+    <Global.System.Configuration.UserScopedSettingAttribute(),  _
+     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.Configuration.DefaultSettingValueAttribute("filters.json")>  _
+    Public Property LocalFilterList() As String
+        Get
+            Return CType(Me("LocalFilterList"),String)
+        End Get
+        Set
+            Me("LocalFilterList") = value
+        End Set
+    End Property
 End Class
 
 Namespace My
