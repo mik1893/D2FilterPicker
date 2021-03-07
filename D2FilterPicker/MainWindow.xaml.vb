@@ -11,6 +11,7 @@ Class MainWindow
 
         If File.Exists(My.Settings.LocalFilterPath) Then
             loadCurrentFilter(My.Settings.LocalFilterPath)
+            currentPathTextBox.Text = My.Settings.LocalFilterPath
         Else
             browseForFile()
         End If
@@ -32,9 +33,9 @@ Class MainWindow
         Try
 
             If filterTextBox.Text IsNot Nothing Then
-                If currentPathLabel.Content IsNot Nothing Then
-                    My.Computer.FileSystem.WriteAllText(currentPathLabel.Content, filterTextBox.Text, False)
-                    loadCurrentFilter(currentPathLabel.Content)
+                If currentPathTextBox.Text IsNot Nothing Then
+                    My.Computer.FileSystem.WriteAllText(currentPathTextBox.Text, filterTextBox.Text, False)
+                    loadCurrentFilter(currentPathTextBox.Text)
                 End If
             End If
         Catch ex As Exception
@@ -73,17 +74,20 @@ Class MainWindow
 
         My.Settings.LocalFilterPath = path
         My.Settings.Save()
-
+        currentPathTextBox.Text = path
         loadCurrentFilter(path)
     End Sub
 
     Private Sub loadCurrentFilter(path As String)
-        currentPathLabel.Content = path
-        Dim Fs As StreamReader
-        Dim currentFilter As String
-        Fs = New StreamReader(path)
-        currentFilter = Fs.ReadToEnd()
-        currentTextBox.Text = currentFilter
+        Try
+            Dim Fs As StreamReader
+            Dim currentFilter As String
+            Fs = New StreamReader(path)
+            currentFilter = Fs.ReadToEnd()
+            currentTextBox.Text = currentFilter
+        Catch ex As Exception
+            MsgBox("Can't load the loot filter:" & vbCrLf & ex.Message)
+        End Try
     End Sub
 
     Private Sub updateButton_Click(sender As Object, e As RoutedEventArgs) Handles updateButton.Click
@@ -99,6 +103,7 @@ Class MainWindow
             MsgBox("Can't load the loot filter:" & vbCrLf & ex.Message)
         End Try
     End Sub
+
 End Class
 
 

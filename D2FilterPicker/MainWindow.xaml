@@ -16,10 +16,10 @@
         <Label x:Name="selectFilterLabel" Content="Select a Loot Filter:" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Foreground="White" Width="247"/>
         <Button x:Name="applyButton" Content="Apply Filter" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="247" Height="30"/>
         <Button x:Name="updateButton" Content="Update Filter List" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Width="247" Height="30"/>
-        <Button x:Name="browseButton" Content="Browse" HorizontalAlignment="Left" Margin="195,53,0,0" VerticalAlignment="Top" Width="62" Height="25"/>
-        <Label x:Name="currentFilterLabel" Content="Current Loot Filter:" HorizontalAlignment="Left" Margin="699,1,0,0" VerticalAlignment="Top" Foreground="White" Width="247"/>
+        <Button x:Name="browseButton" Content="Browse" HorizontalAlignment="Left" Margin="195,53,0,0" VerticalAlignment="Top" Width="62" Height="20"/>
+        <Label x:Name="currentFilterLabel" Content="Current Local Loot Filter:" HorizontalAlignment="Left" Margin="699,1,0,0" VerticalAlignment="Top" Foreground="White" Width="247"/>
         <Label x:Name="selectedFilterLabel" Content="Selected Loot Filter:" HorizontalAlignment="Left" Margin="278,1,0,0" VerticalAlignment="Top" Foreground="White" Width="247"/>
-        <Label x:Name="currentPathLabel" Content="None" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Foreground="Black" Width="180" Background="DarkGray" Height="25" />
-        <Label x:Name="lootFileLabel" Content="Loot Filter file:" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Foreground="White" Width="180"/>
+        <TextBox x:Name="currentPathTextBox" Text="-" HorizontalAlignment="Left" Margin="10,53,0,0" Width="180" Height="20" Background="DarkGray" VerticalAlignment="Top" IsReadOnly="True" />
+        <Label x:Name="lootFileLabel" Content="Local Loot Filter file:" HorizontalAlignment="Left" Margin="10,27,0,0"  VerticalAlignment="Top" Foreground="White" Width="180"/>
     </Grid>
 </Window>
