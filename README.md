@@ -1,5 +1,5 @@
 # D2FilterPicker
-Little tool built to try out different loot filters on Project Diablo 2.
+Little tool built to try out different loot filters on Diablo 2.
 ![screenshot of D2FilterPicker](https://i.imgur.com/XqwGI8m.png)
 
 ## Installation and How to Use
