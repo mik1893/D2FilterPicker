@@ -104,6 +104,13 @@ Class MainWindow
         End Try
     End Sub
 
+    Private Sub editFile_Click(sender As Object, e As RoutedEventArgs) Handles editFile.Click
+        Try
+            Process.Start(My.Settings.LocalFilterPath)
+        Catch ex As Exception
+            MsgBox("Can't open loot filter:" & vbCrLf & ex.Message)
+        End Try
+    End Sub
 End Class
 
 

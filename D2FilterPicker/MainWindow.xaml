@@ -6,7 +6,7 @@
         xmlns:gif="http://wpfanimatedgif.codeplex.com" 
         xmlns:local="clr-namespace:D2FilterPicker"
         mc:Ignorable="d"
-        Title="D2FilterPicker" Height="469.014" Width="1136.419"
+        Title="D2FilterPicker" Height="475" Width="1140"
         Loaded="Window_Loaded">
     <Grid Background="#515151" Margin="0,0,0,0">
         <Image gif:ImageBehavior.AnimatedSource="diablo.gif" Margin="63,262,938,19.2" />
@@ -21,5 +21,6 @@
         <Label x:Name="selectedFilterLabel" Content="Selected Loot Filter:" HorizontalAlignment="Left" Margin="278,1,0,0" VerticalAlignment="Top" Foreground="White" Width="247"/>
         <TextBox x:Name="currentPathTextBox" Text="-" HorizontalAlignment="Left" Margin="10,53,0,0" Width="180" Height="20" Background="DarkGray" VerticalAlignment="Top" IsReadOnly="True" />
         <Label x:Name="lootFileLabel" Content="Local Loot Filter file:" HorizontalAlignment="Left" Margin="10,27,0,0"  VerticalAlignment="Top" Foreground="White" Width="180"/>
+        <Button x:Name="editFile" Content="Edit FIlter" HorizontalAlignment="Left" Margin="1013,4,0,0" VerticalAlignment="Top" Width="99"/>
     </Grid>
 </Window>
