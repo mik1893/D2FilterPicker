@@ -4,7 +4,7 @@ Little tool built to try out different loot filters on Project Diablo 2.
 
 ## Installation and How to Use
 You can download the latest release here on github.
-[D2FilterPicker-1.0.1](https://github.com/mik1893/D2FilterPicker/releases/download/v1.0.1/D2FilterPicker-1.0.1.zip) is the last avaialble version to download.
+[D2FilterPicker-1.0.2](https://github.com/mik1893/D2FilterPicker/releases/download/V1.0.2/D2FilterPicker-1.0.2.zip) is the last avaialble version to download.
 
 * Once downloaded, extract the zip file in a location of your choice and run the file **D2FilterPicker.exe**
 * Browse to the default.filter in your PD2 installation folder (it might find it automatically if you have installed everything with default paths)
