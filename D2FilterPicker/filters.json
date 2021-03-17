@@ -26,5 +26,9 @@
   {
     "Name": "Equa1ity PD2",
     "Url": "https://raw.githubusercontent.com/PritchardJasonR/Equa1ityPD2Filter/main/default.filter"
+  },
+  {
+    "Name": "TheIrateSeagoer Default",
+    "Url": "https://raw.githubusercontent.com/TheIrateSeagoer/pd2lootfilter/main/default.filter"
   }
 ]
